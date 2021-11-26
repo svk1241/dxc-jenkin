@@ -2,7 +2,7 @@ pipeline{
 agent any 
 
 environment{
-  jarLocation='C:\ProgramData\Jenkins\.jenkins\workspace\dxc-jenkin-git-pipeline\target\my-app-1.0-SNAPSHOT.jar'
+  jarLocation='C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\dxc-jenkin-git-pipeline\\target\\my-app-1.0-SNAPSHOT.jar'
  
  tools{
  
