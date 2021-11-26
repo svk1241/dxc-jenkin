@@ -1,0 +1,18 @@
+pipeline{
+    agent any
+    
+    environment{
+        
+        secret=credentials('secret_text')
+    }
+    
+    stages{
+        
+        stage('example'){
+            steps{
+                bat 'echo my secretis %secret%'
+            }
+        }
+    }
+}
+            
