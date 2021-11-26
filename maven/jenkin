@@ -6,7 +6,10 @@ agent any
    maven "jenkins-mvn"
    
    }
-   stages('Build'{
+   stages{
+   
+   stage('Build'){
+   
    
    steps{
      git 'https://github.com/jenkins-docs/simple-java-maven-app.git'
