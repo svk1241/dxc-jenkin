@@ -14,7 +14,7 @@ location = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\dxc-jenkin-git-pipeli
 
 tools{
 
-maven "mvn"
+maven "Jenkins-mvn"
 
 }
 
